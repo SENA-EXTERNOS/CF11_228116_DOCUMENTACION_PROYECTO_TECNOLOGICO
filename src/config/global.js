@@ -1,7 +1,8 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
+    componenteFormativo: 'Documentación del proyecto tecnológico',
+    descripcionCurso:
+      'En este componente formativo se conocerán aspectos administrativos del proyecto TI que le ayudarán a reconocer los actores que intervienen en cada una de las fases, costos, recursos y la distribución de actividades según el perfil de cada cargo, adicionalmente; aspectos como el manual de funciones, su posición como cliente y la normativa que desde el gobierno nacional lo protege.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -11,6 +12,42 @@ export default {
       },
       {
         clases: ['banner-principal-decorativo-2'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-4.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-5'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-5.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-6'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-6.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-7', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-8', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-9', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-10', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-11', 'd-none', 'd-lg-block'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
       },
     ],
@@ -32,14 +69,20 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Inventario',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Política de inventarios',
             hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Herramienta de inventarios',
+            hash: 't_1_2',
           },
         ],
       },
@@ -48,15 +91,181 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Costos',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo: 'Concepto de costos',
+            hash: 't_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: 'Tipo de costos',
+            hash: 't_2_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Contingencias TI',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.1',
+            titulo: 'Tipo de contingencia tecnológica',
+            hash: 't_3_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.2',
+            titulo: 'Aspectos claves',
+            hash: 't_3_2',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Cliente',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.1',
+            titulo: 'Ley del consumidor',
+            hash: 't_4_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.2',
+            titulo: 'Alcance jurídico y financiero',
+            hash: 't_4_2',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema5',
+        icono: 'far fa-file-alt',
+        numero: '5',
+        titulo: 'Proyecto',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '5.1',
+            titulo: 'Concepto de proyecto TI',
+            hash: 't_5_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '5.2',
+            titulo: 'Criterio para determinar recursos',
+            hash: 't_5_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '5.3',
+            titulo: 'Fases de un proyecto',
+            hash: 't_5_3',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema6',
+        icono: 'far fa-file-alt',
+        numero: '6',
+        titulo: 'Manual de funciones',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '6.1',
+            titulo: 'Tipo de manuales',
+            hash: 't_6_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '6.2',
+            titulo: 'Clasificación de manuales',
+            hash: 't_6_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '6.3',
+            titulo: 'Característica de manual',
+            hash: 't_6_3',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema7',
+        icono: 'far fa-file-alt',
+        numero: '7',
+        titulo: 'Portafolio',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '7.1',
+            titulo: 'Concepto de portafolio de servicio',
+            hash: 't_7_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '7.2',
+            titulo: 'Tipo de portafolio de servicio',
+            hash: 't_7_2',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema8',
+        icono: 'far fa-file-alt',
+        numero: '8',
+        titulo: 'Atención al cliente',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '8.1',
+            titulo: 'Concepto atención al cliente',
+            hash: 't_8_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '8.2',
+            titulo: 'Tipo de cliente',
+            hash: 't_8_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '8.3',
+            titulo: 'Concepto contratos',
+            hash: 't_8_3',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema9',
+        icono: 'far fa-file-alt',
+        numero: '9',
+        titulo: 'Cargos',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '9.1',
+            titulo: 'Tipo de cargos en proyectos TI',
+            hash: 't_9_1',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -101,32 +310,126 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema:
+        'MGPTI.G.GEN.01 - Documento Maestro del Modelo de Gestión de Proyectos TI',
+      referencia:
+        'Ministerio de las TIC (10 de noviembre de 2022). Documento maestro del modelo de gestión de proyectos TI. Página web institucional. Recuperado el 10 de noviembre de 2022 de',
+      tipo: 'Documento maestro',
+      link:
+        'https://www.mintic.gov.co/arquitecturati/630/articles-144766_recurso_pdf.pdf',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema:
+        'Alcaldía Mayor de Bogotá D.C. Plan de contingencia tecnológica IDEP',
+      referencia:
+        'Alcaldía Mayor de Bogotá D.C. (10 de noviembre de 2022) Plan de contingencia tecnológica IDEP. Retrieved November 10, 2022, from',
+      tipo: 'Plan de contingencia tecnológica',
+      link:
+        'http://www.idep.edu.co/sites/default/files/PL-GT-12-02%20Plan%20Contingencia%20Tecno%20V12.pdf',
+    },
+    {
+      tema: 'Ley 1480 de 2011 Estatuto del consumidor y otras disposiciones',
+      referencia:
+        'Congreso de Colombia (2011). Ley 1480 de 2011. Estatuto del consumidor y otras disposiciones. Recuperado el 10 de noviembre de 2022 de',
+      tipo: 'Estatuto',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=44306',
+    },
+    {
+      tema: 'Modelo de costos de servicio TI en Educaciones de nivel Superior',
+      referencia:
+        'Universidad de Pamplona (2015). Modelo de costos de servicio TI en Educaciones de nivel Superior. Recuperado el 10 de noviembre de 2022 de',
+      tipo: 'Modelo',
+      link:
+        'https://documentas.redclara.net/bitstream/10786/1131/1/MODELO%20DE%20COSTOS%20DE%20SERVICIOS%20DE%20TECNOLOG%C3%8DAS%20DE%20INFORMACI%C3%93N%20EN%20INSTITUCIONES%20DE%20EDUCACI%C3%93N%20SUPERIOR.pdf',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Activo',
+      significado:
+        'recurso tangible e intangible que posee un potencial de servicio o beneficio económico',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Costo',
+      significado: 'cantidad de dinero que se paga por un objeto o algo',
+    },
+    {
+      termino: 'Contingencia',
+      significado:
+        'evento que puede suceder o no, en TI hace referencia a un dispositivo o acción que permite dar solución a un imprevisto de manera temporal o permanente',
+    },
+    {
+      termino: 'Cliente',
+      significado:
+        'persona que utiliza los servicios de un profesional o de una empresa, especialmente la que lo hace regularmente.',
+    },
+    {
+      termino: 'Inventario',
+      significado:
+        'relación detallada, ordenada y valorada de los elementos que componen el patrimonio de una empresa o persona en un momento determinado.',
+    },
+    {
+      termino: 'Ley',
+      significado: 'regla o norma establecida por un ente de control superior',
+    },
+    {
+      termino: 'Proyecto',
+      significado:
+        'conjunto de actividades encaminadas a alcanzar un objetivo en particular, cuenta con recursos y presupuestos para su ejecución y una duración determinada en el tiempo. ',
+    },
+    {
+      termino: 'Recurso',
+      significado:
+        'conjunto de elementos disponibles para resolver una necesidad o llevar a cabo una tarea y que produce un beneficio',
+    },
+    {
+      termino: 'T.I.',
+      significado: 'Tecnologías de la Información. ',
+    },
+    {
+      termino: 'PMI',
+      significado: '<em>Project Management Institute.</em>',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Chiavenato, I., & Obón. (2019). Introducción a la teoría general de la administración. México, D.F. McGraw-Hill Interamericana Editores.',
+    },
+    {
+      referencia:
+        'Escudero Serrano, M. (2019). Logística de almacenamiento. Madrid. Paraninfo.',
+    },
+    {
+      referencia:
+        'García Castro, J. (2017). Proyectos bajo ataque: Una historia en la búsqueda de la creación del valor. España. Ediciones Díaz de Santos.',
+    },
+    {
+      referencia:
+        'Guérin, B. (2018). Gestión de proyectos informáticos: Desarrollo, análisis y control. Barcelona. Ediciones ENI.',
+    },
+    {
+      referencia:
+        'Montes, C., Vallejo, C, & Montilla, O. (2019). Presupuestos: Aplicación práctica en las organizaciones. Bogotá. Alfaomega.',
+    },
+    {
+      referencia:
+        'Ruiz, F., & Ituarte, M. (2018). Tu marca personal en acción. Colección Acción empresarial.',
+    },
+    {
+      referencia:
+        'Torres Gómez, C., & Torres Gómez, C. (2018). Gestión de la atención al cliente/consumidor. Málaga. IC Editorial.',
+    },
+    {
+      referencia:
+        'Vásquez Rojas, F. (2020). Costos y Presupuestos para financieros junior. Colombia. Grupo editorial Nueva legislación.',
+    },
+    {
+      referencia:
+        'VirtualPro (2021). Un modelo de gestión de inventarios basado en estrategia competitiva. Recuperado el 29 de noviembre de 2022, de',
+      link:
+        'https://www.virtualpro.co/biblioteca/un-modelo-de-gestion-de-inventarios-basado-en-estrategia-competitiva',
     },
   ],
   creditos: {

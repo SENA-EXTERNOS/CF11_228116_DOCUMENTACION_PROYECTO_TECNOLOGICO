@@ -1,19 +1,267 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: vanish 5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 27.8%
+    left: 11.9%
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: float2 5s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
-
+    top: 28%
+    left: 13.5%
+  &-3
+    animation: vanish 7.5s ease-in-out infinite alternate
+    position: absolute
+    top: 38%
+    left: 21.2%
+    width: 16.7%
+  &-4
+    animation: float1 4s ease-in-out infinite alternate
+    position: absolute
+    top: 22%
+    left: 34%
+  &-5
+    animation: float1 5.5s ease-in-out infinite alternate
+    position: absolute
+    top: 22%
+    right: 27%
+  &-6
+    animation: vanish 6s ease-in-out infinite alternate
+    position: absolute
+    top: 42.2%
+    right: 16.7%
+  &-7
+    animation: vanish 3.0s ease-in-out infinite alternate
+    position: absolute
+    top: 35.5%
+    left: 34.7%
+    width: 5%
+  &-8
+    animation: vanish 3.5s ease-in-out infinite alternate
+    position: absolute
+    top: 46.5%
+    right: 42%
+    width: 5%
+  &-9
+    animation: vanish 4.0s ease-in-out infinite alternate
+    position: absolute
+    top: 35.5%
+    right: 23%
+    width: 5%
+  &-10
+    animation: vanish 4s ease-in-out infinite alternate
+    position: absolute
+    top: 18%
+    right: 14.3%
+    width: 7%
+  &-11
+    animation: float2 4s ease-in-out infinite alternate
+    position: absolute
+    top: 17%
+    right: 15.5%
+    width: 5%
+  
 
 @keyframes float1
   0%
-    transform: translateY(20px)
-
+    transform: translateX(0px)
   100%
+    transform: translateX(25px)
+  
+@keyframes float2
+  0%
     transform: translateY(0px)
+  100%
+    transform: translateY(25px)
+  
+@keyframes vanish
+  0%
+    opacity: 0
+  100%
+    opacity: 1
+  
+.titulo-principal.color-acento-contenido .titulo-principal__numero span, .img-infografica.color-primario .img-infografica__item__numero,.acordion__accion__btn--a
+  color: $white
+
+.cajon.color-acento-contenido
+  background-color: #FFF7DE
+
+.cajon.color-primario
+  background-color: #E3F8FB
+
+.cajon.color-secundario
+  background-color: #C1D5E5
+
+.cajon.color-acento-contenido
+  background-color: #FFF2CA
+
+.cajon-end.cajon-b:before
+  background-color: #DBDDE5
+
+.cajon-end-1.cajon-b:before
+  background-color: #FFE5C8
+
+.cajon-full.cajon-b:before
+  bottom: 0
+
+.cajon-end.cajon-b:before, .cajon-end-1.cajon-b:before
+  top: 40%
+  left: 60%
+  right: 0
+  bottom: 0
+  
+  opacity: 1
+
+.cajon-end-1
+
+.bloque-40 .bloque-texto-g__img
+  width: 40%
+  @media (max-width: $bp-max-md)
+    width: initial
+
+.bloque-40 .bloque-texto-g__texto
+  width: 67%
+  @media (max-width: $bp-max-md)
+    width: initial
+
+.BGR01
+  background-color: #DEE4F0
+
+.BGR02, .BGR02A, .BGR02B
+  background-color: #F6F6F6
+
+.BGR02A.acordion__activo
+  background-color: #DEE4F0
+
+.BGR03
+  background-color: #F8FAFC
+
+.bloque-texto-g.color-secundario.BGR04
+  background: linear-gradient(to right, #578DBA, #578DBA, #0B5999)
+
+.BGR05
+  background-color: #E7F1F2
+
+.BGR06
+  background-color: #F4D6B2
+
+.BGR07
+  background: linear-gradient(to bottom, #479FE5, #42558B)
+
+.bloque-texto-g.color-secundario.BG08
+  background-color: #727997
+
+.BGR09
+  background-color: #FDFEFE
+
+.BGR10
+  background-color: #FEF6DF
+
+.BGR11
+  background-color: #C9F1F6
+
+.BGR12
+  background-color: #F8FBFD
+
+.BGR13
+  background-color: #CEDEEB
+
+.BGR14
+  background-color: #F3F9FF
+
+.BGR14.acordion__activo
+  background-color: #E6EBF1
+
+.BGR01, .BGR02, .BGIMG02, .BGR02A, .BGR02B, .BGR03,.BGR05,.BGR06, .BGR07, .BGR09, .BGR10, .BGR11, .BGR12, .BGR13,.BGR14
+  border-radius: 12px
+
+.BGR02B, .BGR09
+  border: 1px solid #EDEDED
+
+.BGIMG01
+  background-image: url("../assets/curso/fondos/img01.png")
+
+.BGIMG02
+  background-image: url("../assets/curso/fondos/img02.png")
+
+.BGIMG01, .BGIMG02
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+
+.BGIMG01
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+.acordion__accion__btn--a
+  background-color: #0B5999
+
+.ac-primario .acordion__accion__btn--a
+  background-color: #4DD0E1
+
+.hg-1
+  height: 513px
+  @media (max-width: $bp-max-xl)
+    height: 510px
+  @media (max-width: $bp-max-lg)
+    height: 482px
+  @media (max-width: $bp-max-md)
+    height: initial
+  
+.hg-2
+  height: 456px
+  @media (max-width: $bp-max-xl)
+    height: 447px
+  @media (max-width: $bp-max-lg)
+    height: 472px
+  @media (max-width: $bp-max-md)
+    height: initial
+  
+.hg-3
+  height: 265px
+  @media (max-width: $bp-max-xl)
+    height: 313px
+  @media (max-width: $bp-max-md)
+    height: initial
+
+.slyder-f__btn i
+  color: #FD9927
+
+.slyder-a__bullets__item--active, .acordion__accion__btn--b
+  background-color: #FD9927 !important
+
+.slyder-a__bullets__item
+  background-color:#FDD59F
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: #FECA2E
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  @media (max-width: $bp-max-xs)
+    width: 25px
+    height: 25px
+  
+.slyder-a__bullets__item
+  @media (max-width: $bp-max-xs)
+    width: 7px
+    height: 7px
+    margin: 0 5px
+  
+.slyder-a__bullets__item--active, .acordion__accion__btn--b
+  background-color: #0B5999 !important
+
+.slyder-a__bullets__item
+  background-color:#A5C2D9
+
+.slyder-blue .slyder-a__btn--sigt, .slyder-blue .slyder-a__btn--atrs
+  background-color: #0B5999
+
+.slyder-blue .slyder-a__btn--sigt, .slyder-blue .slyder-a__btn--atrs
+  background-image: url("../assets/componentes/arrow-white.svg")
+
+.slyder-blue .slyder-a__tipo-b .slyder-a__btn--atrs
+  transform: rotate(180deg) !important
+
+.slyder-blue .slyder-a__tipo-b .slyder-a__btn--sigt
+  transform: rotate(0deg) !important
