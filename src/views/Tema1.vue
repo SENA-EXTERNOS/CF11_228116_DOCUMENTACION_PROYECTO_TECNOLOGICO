@@ -20,6 +20,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema1/img02.jpg')})`}"
       )(data-aos="fade-right")
       .bloque-texto-g__texto.p-4(data-aos="fade-left")
+        img.img-01.col-lg.d-none.d-lg-flex(src="@/assets/curso/temas/img02.svg")
         .h4 Gestión de Inventario<br><br>
         p.mb-0 La gestión de inventario por norma requiere la recopilación de datos y registro de elementos relacionados, que garanticen el control y seguimiento de cada activo o elemento que ingresa o posee la empresa.<br><br>Estos datos representan una unidad dentro del sistema, factores como la ubicación, fecha de compra, período de garantía, control de mantenimiento, entre otros. Permite dar trazabilidad y realizar seguimiento a cada activo dentro del aplicativo de administración y control.
 

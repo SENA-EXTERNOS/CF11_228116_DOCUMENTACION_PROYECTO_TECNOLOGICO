@@ -65,6 +65,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema2/img04.jpg')})`}"
       )(data-aos="fade-right")
       .bloque-texto-g__texto.p-4(data-aos="fade-left")
+        img.img-02.col-lg.d-none.d-lg-flex(src="@/assets/curso/temas/img02.svg")
         p.mb-0 El costo hace referencia a la inversión que se realiza para producir un bien o un servicio, es decir; una inversión que regresará como ganancia más adelante. Por el contrario, un gasto lo realiza la empresa, pero no tiene que ver directamente con la producción, por tanto, no se relaciona con las ganancias. 
 
     
