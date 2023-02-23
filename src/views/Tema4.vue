@@ -14,9 +14,7 @@
       .bloque-texto-g__texto.p-4(data-aos="fade-left")
         p.mb-0 El cliente es aquella persona o empresa que adquiere los bienes o servicios que la compañía produce. No necesariamente se habla de una transacción monetaria, por ejemplo, para el equipo de mesa de ayuda los usuarios que adquieren sus servicios, bien se pueden llamar clientes de la mesa de ayuda.
     
-    separador
-    #t_4_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 4.1 Ley del consumidor
+    h2 Ley del consumidor
     
     .row.justify-content-between.align-items-center.mb-5
       .col-lg-3.col-6.mb-lg-0.mb-4(data-aos="fade-right")
@@ -67,15 +65,13 @@
         .col-lg-6(data-aos="fade-left")
           .titulo-segundo.color-acento-contenido
             h3 Ley del consumidor en Colombia
-          p Para conocer la Ley del consumidor en Colombia se recomienda revisar el siguiente material.
-          p Estatuto del consumidor y otras disposiciones (2011). Congreso de Colombia, Ley 1480 de 2011. Accediendo al siguiente enlace:
+          p Para conocer la Ley del consumidor en Colombia, se recomienda revisar el siguiente material:
+          p Estatuto del consumidor y otras disposiciones (2011). Congreso de Colombia, Ley 1480 de 2011. 
           a.boton.color-acento-contenido(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=44306" target="_blank")
             span Enlace web
             i.fas.fa-link
 
-    separador
-    #t_4_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 4.2 Alcance jurídico y financiero
+    h2 Alcance jurídico y financiero
     
     p El consumidor goza de protección por parte del Estado, cuenta con la Ley 1480 de 2011 en la cual se establece el estatuto del consumidor y otras disposiciones, también se enmarca en la Constitución política de Colombia para reconocer la protección del consumidor. 
 
@@ -92,8 +88,9 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h4.text-white.mb-1 Alcance jurídico del consumidor
-                  p.text-white.text-small Para conocer más sobre el alcance jurídico del consumidor se invita a revisar el siguiente material. 
-                  p.text-white.text-small.mb-0 Contenido y Alcance de los Derechos del Consumidor (noviembre 11 de 2022). Márquez y Márquez. Accediendo al siguiente enlace:
+                  p.text-white.text-small Para conocer más sobre el alcance jurídico del consumidor, se invita a revisar el siguiente material:
+ 
+                  p.text-white.text-small.mb-0 Contenido y alcance de los derechos del consumidor (noviembre 11 de 2022). Márquez y Márquez. 
                 .col-sm-auto
                   a.boton.color-acento-contenido(href="https://www.marquezabogados.co/blog/contenido-y-alcance-de-los-derechos-del-consumidor" target="_blank")
                     span Enlace web

@@ -32,12 +32,10 @@
                     span Ver anexo
                     i.fas.fa-eye
     
-    separador
-    #t_6_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 6.1 Tipo de manuales
+    h2 Tipo de manuales
     
-    p Como se ha visto, un manual permite coordinar el recurso humano desde cada cargo dentro de la compañía, además proporciona dirección e instrucciones precisas para guiar cada tarea según la función a desempeñar. 
-    .h4 Tipos de manuales
+    p Un manual permite coordinar el recurso humano desde cada cargo dentro de la compañía, además, proporciona dirección e instrucciones precisas para guiar cada tarea según la función a desempeñar. A continuación, algunos tipos de manuales:
+
 
     .row.justify-content-center.mb-4(data-aos="zoom-in")
       ImagenInfografica.color-primario
@@ -75,9 +73,7 @@
           .h5.mb-2 Manual de calidad
           p.mb-0 Políticas de calidad empresarial midiendo la productividad, eficiencia, calidad de servicio.
 
-    separador
-    #t_6_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 6.2 Clasificación de manuales
+    h2 Clasificación de manuales
     
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
@@ -87,13 +83,11 @@
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/tema6/img04.svg")
 
-    separador
-    #t_6_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 6.3 Característica de manual
+    h2 Característica de manual
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
-        .h5 Las características más comunes que un manual debe presentar son:
+        .h5 Las características más comunes que un manual debe presentar son: 
         ul.lista-ul--color
           li
             i.fas.fa-puzzle-piece(style="color: #FD9927")

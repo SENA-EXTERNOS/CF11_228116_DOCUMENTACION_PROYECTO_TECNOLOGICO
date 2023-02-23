@@ -24,8 +24,7 @@
         .h4 Gestión de Inventario<br><br>
         p.mb-0 La gestión de inventario por norma requiere la recopilación de datos y registro de elementos relacionados, que garanticen el control y seguimiento de cada activo o elemento que ingresa o posee la empresa.<br><br>Estos datos representan una unidad dentro del sistema, factores como la ubicación, fecha de compra, período de garantía, control de mantenimiento, entre otros. Permite dar trazabilidad y realizar seguimiento a cada activo dentro del aplicativo de administración y control.
 
-    p Realizar la gestión de un inventario requiere cinco fases, que se convierten en política organizacional y apunta a garantizar el cumplimiento de cada una de ellas para beneficio de la empresa.
-    .h5.mb-5 A continuación, se especifican cada uno de ellos.
+    p Realizar la gestión de un inventario requiere cinco fases, que se convierten en política organizacional y apunta a garantizar el cumplimiento de cada una de ellas para beneficio de la empresa. A continuación, se especifican cada una de ellas:
 
     .row.justify-content-center.mb-5(data-aos="zoom-in")
       ImagenInfografica.color-primario
@@ -48,11 +47,9 @@
           .h5.mb-2 Auditoría a Terceros
           p.mb-0 El ciclo completo se cierra a la hora de contar con proveedores que cumplan con los estándares requeridos, además que garanticen el aprovisionamiento de los recursos y activos a la hora de ser requeridos, contar con excelentes suministros, permite suplir las demandas corporativas, por ello resulta importante realizar evaluación y seguimiento a los proveedores. 
 
-    separador
-    #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 1.1 Política de inventarios
+    h2 Política de inventarios
     
-    p Las políticas de inventarios permiten que las instrucciones y métodos dados por la gerencia o dirección empresarial se apliquen en pro de la gestión de los recursos, es decir; cómo se administra el inventario desde el stock, ubicación, entre otros aspectos; con el fin de evitar pérdidas, daños y optimizar los costos.
+    p Las políticas de inventarios permiten que las instrucciones y métodos dados por la gerencia o dirección empresarial se apliquen en pro de la gestión de los recursos, es decir; cómo se administra el inventario desde el stock, ubicación, entre otros aspectos; con el fin de evitar pérdidas, daños y optimizar los costos. 
     p Recuerde que el inventario se refiere a todas las existencias de la empresa, equipos, edificaciones, automotores, entre otros, por tanto, la política de inventario también estipula que se debe contar con disponibilidad suficiente de activos para atender la demanda. Algunos de los factores a considerar a la hora de implementar una política de inventario son:
 
     .row.justify-content-center.mb-5
@@ -73,9 +70,7 @@
       .col-lg-3.col-6.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/tema1/img04.svg")
 
-    separador
-    #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 1.2 Herramienta de inventarios
+    h2 Herramienta de inventarios
     
     p.mb-5 Las herramientas garantizan que el proceso de inventario se lleve de manera sencilla y ordenada, algunas de las herramientas más utilizadas son:
 

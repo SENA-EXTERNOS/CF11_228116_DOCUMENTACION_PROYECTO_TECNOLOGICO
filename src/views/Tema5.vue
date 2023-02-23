@@ -26,9 +26,7 @@
                     span Descargar
                     i.fas.fa-file-download
     
-    separador
-    #t_5_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 5.1 Concepto de proyecto TI
+    h2 Concepto de proyecto TI
     
     p.mb-5 Un proyecto TI consiste en el proceso de planear, organizar, definir actores y funciones, además de especificar el objetivo principal de este, todo enmarcado en el concepto TI de la organización.
     .h4 Objetivo del proyecto
@@ -42,9 +40,7 @@
           .BGR01.p-4
             p.mb-0 Además de todos los riesgos que se pueden presentar, al hablar de proyectos TI, también se debe contemplar que durante la ejecución del mismo se pueden presentar cambios significativos en el #[em hardware] o tecnología requerida, o ajustes a la infraestructura física, afectación en la seguridad y gestión de la información, infraestructura de red, entre otros.
 
-    separador
-    #t_5_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 5.2 Criterio para determinar recursos
+    h2 Criterio para determinar recursos
     
     p Los recursos son aquellos elementos que permiten que la ejecución del proyecto se lleve a cabo sin contratiempo, los recursos se deben tener en cuenta a la hora de planear las actividades y costos, su optimización garantiza que la inversión para ejecutar el proyecto no sea alta. 
 
@@ -115,20 +111,18 @@
           .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             img(src="@/assets/curso/tema5/img08.png")
           
-    separador
-    #t_5_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 5.3 Fases de un proyecto
+    h2 Fases de un proyecto
     
     p En el siguiente video se estudiarán las diferentes etapas que componen un proyecto como son la evaluación inicial, planeación, puesta en marcha o ejecución, seguimiento y control, cierre y conclusiones. Además, se revisarán las áreas de conocimiento que lo componen.
     figure.mb-5(data-aos="zoom-in")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-    p El PMI o #[em Project Management Institute], se creó en 1969 y es la organización mundial dedicada a la gestión y dirección de proyectos.
+    p El PMI o #[em Project Management Institute], se creó en 1969 y es la organización mundial dedicada a la gestión y dirección de proyectos. Esta se identifica por:
 
     .row.justify-content-between.align-items-center.mb-4
       .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
-        .h4 #[em Project Management Institute]
+
         ul.lista-ul--color
           li
             i.far.fa.lightbulb(style="color: #0B5999")
@@ -155,9 +149,10 @@
         .col-lg-6(data-aos="fade-left")
           .titulo-segundo.color-acento-contenido
             h3 Metodología de PMI
-          p En el siguiente video el gerente de Procem Consultores, da más información sobre la metodología de PMI (Project Management Institute), a través de un ejemplo muy práctico, para ver el material se invita a dar clic sobre el siguiente enlace.
+          p En el siguiente video, el gerente de Procem Consultores, da más información sobre la metodología de PMI (Project Management Institute), a través de un ejemplo muy práctico, para ver el material, se invita a dar clic sobre el siguiente enlace: 
+
           p Gestión de proyectos. Metodología PMI (ejemplo práctico). Consultores, P. [ProcemConsultores]. (2021, July 31).
-          p Accediendo al siguiente enlace:
+
           a.boton.color-acento-contenido(href="https://www.youtube.com/watch?v=Og7iI31kwPQ" target="_blank")
             span Enlace web
             i.fas.fa-link
@@ -169,8 +164,8 @@
         .col-lg-6(data-aos="fade-left")
           .titulo-segundo.color-acento-contenido
             h3 Documento maestro del modelo de gestión de proyectos TI
-          p Para conocer el documento maestro del modelo de gestión de proyectos TI en Colombia, por favor consulte el siguiente material. 
-          p Documento maestro del modelo de gestión de proyectos TI (noviembre 10 de 2022). Ministerio de las TIC (CO) MGPTI.G.GEN.01. Accediendo al siguiente enlace:
+          p Para conocer el documento maestro del modelo de gestión de proyectos TI en Colombia, por favor consulte el siguiente material:
+          p Documento maestro del modelo de gestión de proyectos TI (noviembre 10 de 2022). Ministerio de las TIC (CO) MGPTI.G.GEN.01. 
           a.boton.color-acento-contenido(href="https://www.mintic.gov.co/arquitecturati/630/articles-144766_recurso_pdf.pdf" target="_blank")
             span Enlace web
             i.fas.fa-link

@@ -17,9 +17,7 @@
           p.mb-0 No se puede predecir que falle o no el servidor principal, pero por su importancia, se debe contar con una estrategia de respaldo.
 
 
-      separador
-    #t_3_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 3.1 Tipo de contingencia tecnológica
+    h2 Tipo de contingencia tecnológica
     
     p De acuerdo con el grado de riesgo de la incidencia que pueda llegar a ocurrir, las contingencias se clasifican en: 
 
@@ -49,9 +47,7 @@
           p #[b Tiempo de recuperación]: no son reparables.
           p.mb-0 Daños graves que generan gran impacto en los servicios empresariales, sus consecuencias no se pueden reparar a corto plazo.
 
-    separador
-    #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 3.2 Aspectos claves
+    h2 Aspectos claves
     
     .row.justify-content-between.align-items-center.mb-5
       .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
@@ -74,7 +70,7 @@
             .col-8
               img(src='@/assets/curso/tema3/img07.png' alt='AvatarTop')
           h2.text-center Clasificación
-          p.text-center.mb-0 Por lo tanto, no es lo mismo hablar de un daño en la subestación eléctrica, a la avería en el equipo del auxiliar contable, reconocer los factores de riesgo y clasificarlos de acuerdo con su tipo permitirá crear un plan de contingencia.
+          p.text-center.mb-0 No es lo mismo hablar de un daño en la subestación eléctrica, a la avería en el equipo del auxiliar contable; reconocer los factores de riesgo y clasificarlos de acuerdo con su tipo permitirá crear un plan de contingencia.
         .BGR06.hg-2.p-4
           .row.justify-content-center.mb-3
             .col-8
@@ -87,7 +83,7 @@
               img(src='@/assets/curso/tema3/img09.png' alt='AvatarTop')
           h2.text-center Tipos de contingencia
           p.text-center Algunos de los tipos de contingencia que más se usan son: 
-          p.text-center.mb-0 Planes de respaldo, contingencia en hardware y software.
+          p.text-center.mb-0 Planes de respaldo, contingencia en <i>hardware</i> y <i>software.</i>
         .BGR06.hg-2.p-4
           .row.justify-content-center.mb-3
             .col-8

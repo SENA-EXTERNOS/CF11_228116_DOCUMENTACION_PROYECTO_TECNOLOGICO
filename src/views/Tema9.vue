@@ -23,9 +23,7 @@
       .col-lg-3.col-6.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/tema9/img02.png")
     
-    separador
-    #t_9_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 9.1 Tipo de cargos en proyectos TI
+    h2 Tipo de cargos en proyectos TI
 
     p.mb-5 En el área TI, a la hora de ejecutar un proyecto generalmente se encontrarán los siguientes perfiles:
     .h4.mb-5 Perfiles para un proyecto
@@ -48,7 +46,7 @@
           .h5.mb-2 Diseñador
           p.mb-0 Garantiza el cumplimiento de las necesidades del sistema de acuerdo con las normativas, también permite implementar características como la accesibilidad, navegabilidad, interactividad y usabilidad, para permitir al usuario final una experiencia de fácil uso.
         .BGR01.p-3(x="19.3%" y="57.6%" numero="5")
-          .h5.mb-2 Ingeniero de software
+          .h5.mb-2 Ingeniero de <i>software</i>
           p.mb-0 Define y mantiene el código fuente, depura errores y realiza pruebas de uso.
         .BGR01.p-3(x="40%" y="57.6%" numero="6")
           .h5.mb-2 Responsable de calidad
@@ -70,8 +68,8 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h4.text-white.mb-1 Gestión de Proyectos de TI
-                  p.text-white.text-small Para saber más sobre gestión de proyectos de TI, se sugiere revisar el siguiente material. 
-                  p.text-white.text-small.mb-0 Gestión de proyectos de TI: Guía para gerentes y equipos (18 jul 2022). Equipo Asana. Accediendo al siguiente enlace:
+                  p.text-white.text-small Para profundizar conocimientos sobre gestión de proyectos de TI, se sugiere revisar el siguiente material: 
+                  p.text-white.text-small.mb-0 Gestión de proyectos de TI: guía para gerentes y equipos (18 jul 2022). Equipo Asana. 
                 .col-sm-auto
                   a.boton.color-acento-contenido(href="https://asana.com/es/resources/it-project-management" target="_blank")
                     span Enlace web

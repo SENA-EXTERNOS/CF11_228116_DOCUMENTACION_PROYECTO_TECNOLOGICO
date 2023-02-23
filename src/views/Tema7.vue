@@ -7,8 +7,7 @@
         span 7
       h1 Portafolio
     
-    #t_7_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 7.1 Concepto de portafolio de servicio
+    h2 Concepto de portafolio de servicio
     
     .row.justify-content-between.mb-4
       .col-lg-2.col-4.mb-lg-0.mb-4(data-aos="fade-right")
@@ -20,6 +19,7 @@
           p.mb-0 El portafolio ofrece de manera directa al cliente una gama de elementos que permiten conocer el perfil de la persona a contratar a través de trabajos realizados, contactos y referencias, también funciona como una tarjeta de presentación que contiene detalles importantes sobre el negocio.
 
     .h4.mb-5 Portafolio
+    p.mb-4 Las secciones o partes con las que debe contar un portafolio de servicio son: 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-6.order-lg-1.order-2(data-aos="fade-right")
         ol.lista-ol--cuadro.lista-ol--separador
@@ -83,7 +83,7 @@
         .row.justify-content-between.align-items-center
           .col-lg-4.order-lg-1.order-2
             .h4 Digital
-            p.mb-0 En el mundo actual, es el más utilizado. Permite conocer toda la oferta de bienes, productos y/o servicios que una compañía posee de manera digital, se comparte a través de un enlace al cual los interesados acceden, encontrarán en él un documento que puede ser compartido a través de correo, chat, mensaje, entre otros. Puede ser visualizado desde un teléfono inteligente, tableta, computador. Un portafolio digital deberá diseñarse pensando en su distribución online.
+            p.mb-0 El portafolio digital es el más utilizado actualmente, permite conocer toda la oferta de bienes, productos y/o servicios que una compañía posee de manera virtual, se comparte a través de un enlace al cual los interesados acceden, encontrarán en él, un documento que puede ser compartido a través de correo, chat, mensaje, entre otros. Puede ser visualizado desde un teléfono inteligente, tableta, computador. Un portafolio digital deberá diseñarse pensando en su distribución <i>online.</i> 
           .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             img(src="@/assets/curso/tema7/img04.png")
 
@@ -100,7 +100,7 @@
         .col-lg-6(data-aos="fade-left")
           .titulo-segundo.color-acento-contenido
             h3 Portafolio de servicios TIC
-          p Para conocer el portafolio de servicio TIC de la oficina de tecnologías de la información del Departamento nacional de planeación y el portafolio de servicio TI del Ministerio de agricultura, se invita a revisar el siguiente material. 
+          p PPara conocer el portafolio de servicio TIC de la oficina de tecnologías de la información del Departamento Nacional de Planeación y el portafolio de servicio TI del Ministerio de Agricultura, se invita a revisar el siguiente material:
           p Portafolio de servicio TIC de la oficina de tecnologías de la información. (2018). Departamento de Planeación Nacional. Accediendo al siguiente enlace:
           a.boton.color-acento-contenido(href="https://colaboracion.dnp.gov.co/" target="_blank")
             span Enlace web
@@ -138,7 +138,7 @@ export default {
       {
         titulo: 'Herramientas',
         texto:
-          'Entrega de aplicaciones que permiten que los usuarios tengan acceso a los servicios de la mesa de ayuda, a través de una interfaz de fácil uso. El equipo TI pone a disposición un portafolio de estrategias que permiten garantizar el funcionamiento del sistema en un estado de óptimo desempeño.',
+          'Entrega de aplicaciones que permite que los usuarios tengan acceso a los servicios de la mesa de ayuda, a través de una interfaz de fácil uso. El equipo TI pone a disposición un portafolio de estrategias, para garantizar el funcionamiento del sistema en un estado de óptimo desempeño.',
         imagen: require('@/assets/curso/tema7/img06.jpg'),
       },
       {

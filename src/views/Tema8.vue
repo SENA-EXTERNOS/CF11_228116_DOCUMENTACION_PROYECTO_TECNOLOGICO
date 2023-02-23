@@ -11,11 +11,9 @@
       .col-lg-2.col-4.mb-lg-0.mb-4(data-aos="fade-right")
         img(src="@/assets/curso/tema8/img01.svg")
       .col-lg-10(data-aos="fade-left")
-        p.mb-0 No toda la operación de la empresa se rige por la atención al cliente y tampoco se tiene control directo sobre éste, pero es la razón de ser de muchas compañías, conocer sus necesidades y expectativas garantizan la continuidad del negocio.
+        p.mb-0 No toda la operación de la empresa se rige por la atención al cliente y tampoco se tiene control directo sobre este, pero es la razón de ser de muchas compañías, conocer sus necesidades y expectativas garantizan la continuidad del negocio. 
 
-    separador
-    #t_8_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 8.1 Concepto atención al cliente
+    h2 Concepto atención al cliente
     
     p Para las organizaciones actuales, el área de TI se ha convertido en uno de los pilares fundamentales para ofrecer un buen servicio al cliente final, pues del correcto funcionamiento del sistema se deriva una excelente atención a los usuarios.
       
@@ -133,18 +131,16 @@
                     span Enlace web
                     i.fas.fa-link    
 
-    separador
-    #t_8_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 8.2 Tipo de cliente
+    h2 Tipo de cliente
     
     p.mb-5 Para el área TI existen dos tipos de clientes:
-    .h4 Tipos de clientes
+
   
     .row.justify-content-center.mb-5
       .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
         AcordionA.ac-primario(tipo="a" clase-tarjeta="BGR14")
           div(titulo="Clientes directos")
-            p.mb-0 Clientes que usan servicios corporativos a través de apps, portal web, software desarrollado para el negocio, entre otros.                                                 
+            p.mb-0 Clientes que usan servicios corporativos a través de apps, portal web, software desarrollado para el negocio, entre otros.                                     
           div(titulo="Clientes indirectos")
             p.mb-0 Clientes que para ser atendidos requieren de los servicios TI de la empresa, por ejemplo, personal en punto de venta que realiza el sistema para cotizar, vender, asesorar a los clientes de la compañía.
           div(titulo="Portafolio de servicios")
@@ -154,9 +150,7 @@
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/tema8/img09.svg")
 
-    separador
-    #t_8_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 8.3 Concepto contratos
+    h2 Concepto contratos
     
     p.mb-5 La definición de un contrato es una representación jurídica de una disposición natural del hombre a consensuar con su igual distintos pactos que representen beneficios mutuos. Dicho en otras palabras, un contrato es un acuerdo entre dos o más partes en donde se involucran para realizar “un pacto” que beneficie a ambos. 
 
@@ -185,7 +179,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h4.text-white.mb-1 Concepto de contrato
-                  p.text-white.text-small Para saber más sobre el concepto de contrato, se recomienda revisar el siguiente material.
+                  p.text-white.text-small Para profundizar conocimientos sobre el concepto de contrato, se recomienda revisar el siguiente material:
                   p.text-white.text-small.mb-0 Concepto de contrato (2022). Editorial Etecé. Accediendo al siguiente enlace: 
                 .col-sm-auto
                   a.boton.color-acento-contenido(href="https://concepto.de/contrato-2/" target="_blank")

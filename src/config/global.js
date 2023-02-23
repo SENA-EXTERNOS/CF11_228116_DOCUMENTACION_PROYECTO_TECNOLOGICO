@@ -71,20 +71,6 @@ export default {
         numero: '1',
         titulo: 'Inventario',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Política de inventarios',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Herramienta de inventarios',
-            hash: 't_1_2',
-          },
-        ],
       },
 
       {
@@ -93,20 +79,6 @@ export default {
         numero: '2',
         titulo: 'Costos',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Concepto de costos',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Tipo de costos',
-            hash: 't_2_2',
-          },
-        ],
       },
       {
         nombreRuta: 'tema3',
@@ -114,20 +86,6 @@ export default {
         numero: '3',
         titulo: 'Contingencias TI',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Tipo de contingencia tecnológica',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Aspectos claves',
-            hash: 't_3_2',
-          },
-        ],
       },
       {
         nombreRuta: 'tema4',
@@ -135,20 +93,6 @@ export default {
         numero: '4',
         titulo: 'Cliente',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.1',
-            titulo: 'Ley del consumidor',
-            hash: 't_4_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.2',
-            titulo: 'Alcance jurídico y financiero',
-            hash: 't_4_2',
-          },
-        ],
       },
       {
         nombreRuta: 'tema5',
@@ -156,26 +100,6 @@ export default {
         numero: '5',
         titulo: 'Proyecto',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '5.1',
-            titulo: 'Concepto de proyecto TI',
-            hash: 't_5_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '5.2',
-            titulo: 'Criterio para determinar recursos',
-            hash: 't_5_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '5.3',
-            titulo: 'Fases de un proyecto',
-            hash: 't_5_3',
-          },
-        ],
       },
       {
         nombreRuta: 'tema6',
@@ -183,26 +107,6 @@ export default {
         numero: '6',
         titulo: 'Manual de funciones',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '6.1',
-            titulo: 'Tipo de manuales',
-            hash: 't_6_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '6.2',
-            titulo: 'Clasificación de manuales',
-            hash: 't_6_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '6.3',
-            titulo: 'Característica de manual',
-            hash: 't_6_3',
-          },
-        ],
       },
       {
         nombreRuta: 'tema7',
@@ -210,20 +114,6 @@ export default {
         numero: '7',
         titulo: 'Portafolio',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '7.1',
-            titulo: 'Concepto de portafolio de servicio',
-            hash: 't_7_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '7.2',
-            titulo: 'Tipo de portafolio de servicio',
-            hash: 't_7_2',
-          },
-        ],
       },
       {
         nombreRuta: 'tema8',
@@ -231,26 +121,6 @@ export default {
         numero: '8',
         titulo: 'Atención al cliente',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '8.1',
-            titulo: 'Concepto atención al cliente',
-            hash: 't_8_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '8.2',
-            titulo: 'Tipo de cliente',
-            hash: 't_8_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '8.3',
-            titulo: 'Concepto contratos',
-            hash: 't_8_3',
-          },
-        ],
       },
       {
         nombreRuta: 'tema9',
@@ -258,14 +128,6 @@ export default {
         numero: '9',
         titulo: 'Cargos',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '9.1',
-            titulo: 'Tipo de cargos en proyectos TI',
-            hash: 't_9_1',
-          },
-        ],
       },
     ],
     subMenu: [
