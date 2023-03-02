@@ -14,7 +14,7 @@
       .bloque-texto-g__texto.p-4(data-aos="fade-left")
         p.mb-0 El costo también conocido como coste, es el desembolso económico que se realiza para la producción de algún bien o la oferta de algún servicio. En él, se incluyen todos los actores y factores que intervienen en el proceso como lo son: mano de obra, insumos, gastos en producción, gastos administrativos, entre otros. 
   
-    h2 Tipo de costos
+    h2 Tipos de costos
     
     p Existen varios tipos de costos, la manera en la que se deben calcular puede variar de una empresa a otra.
     p Los costos se pueden clasificar según diferentes criterios de acuerdo con la siguiente información:
@@ -68,7 +68,7 @@
       .col-lg-8(data-aos="fade-left")
         h3 Modelo de costo de servicio TI
         p Ahora bien, con los conceptos adquiridos se pueden estructurar los costos del proyecto de infraestructura, teniendo en cuenta todos los factores que intervienen en el proceso. Si desea conocer un modelo de costos de servicio TI, se invita a revisar el siguiente material:
-        pModelo de costos de servicios de tecnologías de información en instituciones de educación superior, de la Universidad de Pamplona.
+        p Modelo de costos de servicios de tecnologías de información en instituciones de educación superior, de la Universidad de Pamplona.
         a.boton.color-acento-contenido(href="https://documentas.redclara.net/bitstream/10786/1131/1/MODELO%20DE%20COSTOS%20DE%20SERVICIOS%20DE%20TECNOLOG%C3%8DAS%20DE%20INFORMACI%C3%93N%20EN%20INSTITUCIONES%20DE%20EDUCACI%C3%93N%20SUPERIOR.pdf" target="_blank")
           span Enlace web
           i.fas.fa-link

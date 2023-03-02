@@ -65,8 +65,7 @@
         img(src="@/assets/curso/tema7/img02.png")
 
 
-    #t_7_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 7.2 Tipo de portafolio de servicio
+    h3 Tipo de portafolio de servicio
     
     p Los tipos de portafolio que hoy en día se utilizan son:
 
@@ -92,7 +91,7 @@
       SlyderB(:datos="datosSlyder")
     
     .BGR02B.p-4.mb-4
-      .row.justify-content-around.mb-4
+      .row.justify-content-center.align-items-center.mb-5
         .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
           img(src="@/assets/curso/tema7/img08.png")
         .col-lg-6(data-aos="fade-left")

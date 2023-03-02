@@ -47,13 +47,11 @@
           p #[b Tiempo de recuperación]: no son reparables.
           p.mb-0 Daños graves que generan gran impacto en los servicios empresariales, sus consecuencias no se pueden reparar a corto plazo.
 
-    h2 Aspectos claves
+
     
     .row.justify-content-between.align-items-center.mb-5
       .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
-        p.mb-5 A continuación, se mencionan los diferentes tipos de plan de contingencia que se pueden tener de acuerdo con el daño ocurrido en una empresa.
-        .h4 Plan de contingencia.
-        p.mb-0 A continuación, se mencionan algunos ejemplos de planes de contingencia teniendo en cuenta la duración del daño que haya ocurrido en la empresa.
+        p.mb-5 De acuerdo con el tipo de daño, se debe tener en cuenta: 
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/tema3/img05.svg")
       
@@ -82,47 +80,16 @@
             .col-8
               img(src='@/assets/curso/tema3/img09.png' alt='AvatarTop')
           h2.text-center Tipos de contingencia
-          p.text-center Algunos de los tipos de contingencia que más se usan son: 
-          p.text-center.mb-0 Planes de respaldo, contingencia en <i>hardware</i> y <i>software.</i>
-        .BGR06.hg-2.p-4
-          .row.justify-content-center.mb-3
-            .col-8
-              img(src='@/assets/curso/tema3/img10.png' alt='AvatarTop')
-          h2.text-center Tipos de contingencia
-          p.text-center.mb-0 Planes de emergencia o planes de recuperación, que incluyan los manuales con los procedimientos para solucionar las novedades presentadas.
+          ul.lista-ul--color.nar
+              li.mb-3 
+                i.fas.fa-check
+                p.mb-0 Planes de respaldo, contingencia en <i>hardware</i> y <i>software.</i>
+            
+              li.mb-0 
+                i.fas.fa-check
+                p.mb-0 Planes de emergencia o planes de recuperación, que incluyan los manuales con los procedimientos para solucionar las novedades presentadas. 
 
-    .h4 Plan de contingencia
-    p Para conocer dos ejemplos de un plan de contingencia aplicado en las organizaciones, por favor consulte el siguiente material.
 
-    .row.justify-content-center.mb-4
-      .col-lg-6.col-10.mb-lg-0.mb-4(data-aos="fade-right")
-        .BGR07.p-4
-          .row.justify-content-around.align-items-center
-            .col-lg-2.col-3
-              img(src="@/assets/curso/temas/img01.svg")
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  h4.text-white.mb-1 Plan de contingencia tecnológica IDEP
-                  p.text-white.text-small Plan de contingencia tecnológica IDEP (noviembre 10 de 2022). Alcaldía Mayor de Bogotá D.C. Accediendo a través del siguiente enlace:
-                .col-sm-auto
-                  a.boton.color-acento-contenido(href="http://www.idep.edu.co/sites/default/files/PL-GT-12-02%20Plan%20Contingencia%20Tecno%20V12.pdf" target="_blank")
-                    span Enlace web
-                    i.fas.fa-link
-      .col-lg-6.col-10(data-aos="fade-left")
-        .BGR07.p-4
-          .row.justify-content-around.align-items-center
-            .col-lg-2.col-3
-              img(src="@/assets/curso/temas/img01.svg")
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  h4.text-white.mb-1 Plan de contingencia tecnológica 2022
-                  p.text-white.text-small Plan de Contingencia Tecnológica 2022. (noviembre 10 de 2022). SETP Transfederal SAS, Neiva. Accediendo a través del siguiente enlace:
-                .col-sm-auto
-                  a.boton.color-acento-contenido(href="https://www.setpneiva.gov.co/images/pdf/Planes/Plan-de-ecnologia/Plan%20de%20Contingencia%20Tecnol%C3%B3gica%202022.pdf" target="_blank")
-                    span Enlace web
-                    i.fas.fa-link 
 
 </template>
 
