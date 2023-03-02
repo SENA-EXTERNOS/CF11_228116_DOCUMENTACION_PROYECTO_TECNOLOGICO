@@ -95,7 +95,6 @@
         .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
           img(src="@/assets/curso/tema7/img08.png")
         .col-lg-6(data-aos="fade-left")
-          
           h3 Portafolio de servicios TIC
           p Para conocer el portafolio de servicio TIC de la oficina de tecnologías de la información del Departamento Nacional de Planeación y el portafolio de servicio TI del Ministerio de Agricultura, se invita a revisar el siguiente material:
 
