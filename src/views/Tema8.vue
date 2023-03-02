@@ -180,7 +180,7 @@
                 .col.mb-3.mb-sm-0
                   h4.text-white.mb-1 Concepto de contrato
                   p.text-white.text-small Para profundizar conocimientos sobre el concepto de contrato, se recomienda revisar el siguiente material:
-                  p.text-white.text-small.mb-0 Concepto de contrato (2022). Editorial Etecé. Accediendo al siguiente enlace: 
+                  p.text-white.text-small.mb-0 Concepto de contrato (2022). Editorial Etecé. 
                 .col-sm-auto
                   a.boton.color-acento-contenido(href="https://concepto.de/contrato-2/" target="_blank")
                     span Enlace web

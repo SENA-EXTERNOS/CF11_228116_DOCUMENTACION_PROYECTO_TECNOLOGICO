@@ -11,7 +11,8 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Documentación del proyecto tecnológico
-        p.mb-4 A continuación, completar con la palabra correcta la frase que se indica.
+        p Esta actividad le permitirá determinar el grado de apropiación de los contenidos del componente formativo.
+        p.mb-5 De acuerdo con la definición planteada, digite correctamente en el campo vacío, la palabra o términos que completarían el sentido real de la proposición.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

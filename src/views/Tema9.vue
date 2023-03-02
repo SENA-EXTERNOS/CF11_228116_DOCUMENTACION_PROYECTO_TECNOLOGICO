@@ -23,7 +23,7 @@
       .col-lg-3.col-6.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/tema9/img02.png")
     
-    h2 Tipo de cargos en proyectos TI
+    h3 Tipos de cargos en proyectos TI
 
     p.mb-5 En el área TI, a la hora de ejecutar un proyecto generalmente se encontrarán los siguientes perfiles:
     .h4.mb-5 Perfiles para un proyecto

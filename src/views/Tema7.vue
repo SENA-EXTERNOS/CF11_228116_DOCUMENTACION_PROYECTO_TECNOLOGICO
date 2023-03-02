@@ -6,9 +6,7 @@
       .titulo-principal__numero
         span 7
       h1 Portafolio
-    
-    h2 Concepto de portafolio de servicio
-    
+      
     .row.justify-content-between.mb-4
       .col-lg-2.col-4.mb-lg-0.mb-4(data-aos="fade-right")
         img(src="@/assets/curso/tema7/img01.svg")
@@ -20,7 +18,7 @@
 
     .h4.mb-5 Portafolio
     p.mb-4 Las secciones o partes con las que debe contar un portafolio de servicio son: 
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.align-items-center.mb-5
       .col-lg-6.order-lg-1.order-2(data-aos="fade-right")
         ol.lista-ol--cuadro.lista-ol--separador
           li 
@@ -66,7 +64,7 @@
       .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/tema7/img02.png")
 
-    separador 
+
     #t_7_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 7.2 Tipo de portafolio de servicio
     
@@ -98,13 +96,10 @@
         .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
           img(src="@/assets/curso/tema7/img08.png")
         .col-lg-6(data-aos="fade-left")
-          .titulo-segundo.color-acento-contenido
-            h3 Portafolio de servicios TIC
-          p PPara conocer el portafolio de servicio TIC de la oficina de tecnologías de la información del Departamento Nacional de Planeación y el portafolio de servicio TI del Ministerio de Agricultura, se invita a revisar el siguiente material:
-          p Portafolio de servicio TIC de la oficina de tecnologías de la información. (2018). Departamento de Planeación Nacional. Accediendo al siguiente enlace:
-          a.boton.color-acento-contenido(href="https://colaboracion.dnp.gov.co/" target="_blank")
-            span Enlace web
-            i.fas.fa-link
+          
+          h3 Portafolio de servicios TIC
+          p Para conocer el portafolio de servicio TIC de la oficina de tecnologías de la información del Departamento Nacional de Planeación y el portafolio de servicio TI del Ministerio de Agricultura, se invita a revisar el siguiente material:
+
     
     .row.justify-content-center.mb-4(data-aos="flip-up")
       .col-lg-10

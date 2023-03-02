@@ -175,7 +175,7 @@ export default {
       tema:
         'MGPTI.G.GEN.01 - Documento Maestro del Modelo de Gestión de Proyectos TI',
       referencia:
-        'Ministerio de las TIC (10 de noviembre de 2022). Documento maestro del modelo de gestión de proyectos TI. Página web institucional. Recuperado el 10 de noviembre de 2022 de',
+        'Ministerio de las TIC (10 de noviembre de 2022). Documento maestro del modelo de gestión de proyectos TI. Página web institucional. Recuperado el 10 de noviembre de 2022.',
       tipo: 'Documento maestro',
       link:
         'https://www.mintic.gov.co/arquitecturati/630/articles-144766_recurso_pdf.pdf',
@@ -184,7 +184,7 @@ export default {
       tema:
         'Alcaldía Mayor de Bogotá D.C. Plan de contingencia tecnológica IDEP',
       referencia:
-        'Alcaldía Mayor de Bogotá D.C. (10 de noviembre de 2022) Plan de contingencia tecnológica IDEP. Retrieved November 10, 2022, from',
+        'Alcaldía Mayor de Bogotá D.C. (10 de noviembre de 2022) Plan de contingencia tecnológica IDEP. Retrieved November 10, 2022.',
       tipo: 'Plan de contingencia tecnológica',
       link:
         'http://www.idep.edu.co/sites/default/files/PL-GT-12-02%20Plan%20Contingencia%20Tecno%20V12.pdf',
@@ -192,7 +192,7 @@ export default {
     {
       tema: 'Ley 1480 de 2011 Estatuto del consumidor y otras disposiciones',
       referencia:
-        'Congreso de Colombia (2011). Ley 1480 de 2011. Estatuto del consumidor y otras disposiciones. Recuperado el 10 de noviembre de 2022 de',
+        'Congreso de Colombia (2011). Ley 1480 de 2011. Estatuto del consumidor y otras disposiciones. Recuperado el 10 de noviembre de 2022.',
       tipo: 'Estatuto',
       link:
         'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=44306',
@@ -200,7 +200,7 @@ export default {
     {
       tema: 'Modelo de costos de servicio TI en Educaciones de nivel Superior',
       referencia:
-        'Universidad de Pamplona (2015). Modelo de costos de servicio TI en Educaciones de nivel Superior. Recuperado el 10 de noviembre de 2022 de',
+        'Universidad de Pamplona (2015). Modelo de costos de servicio TI en Educaciones de nivel Superior. Recuperado el 10 de noviembre de 2022.',
       tipo: 'Modelo',
       link:
         'https://documentas.redclara.net/bitstream/10786/1131/1/MODELO%20DE%20COSTOS%20DE%20SERVICIOS%20DE%20TECNOLOG%C3%8DAS%20DE%20INFORMACI%C3%93N%20EN%20INSTITUCIONES%20DE%20EDUCACI%C3%93N%20SUPERIOR.pdf',
