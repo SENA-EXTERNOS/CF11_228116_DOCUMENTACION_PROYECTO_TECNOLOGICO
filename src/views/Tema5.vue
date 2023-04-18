@@ -7,12 +7,12 @@
         span 5
       h1 Proyecto
     
-    .row.justify-content-between.mb-4
-      .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
+    .row.justify-content-between.mb-5
+      .col-lg-4.col-8.mb-lg-0.mb-5(data-aos="fade-right")
         img(src="@/assets/curso/tema5/img01.png")
       .col-lg-8(data-aos="fade-left")
         p Un proyecto es la planificación y la ejecución de una serie de acciones que, siendo su fin el conseguir un objetivo determinado, se llevan a cabo. Por tanto, un proyecto no es más que un conjunto de tareas alineadas hacia el cumplimiento de un objetivo en específico que permite tener presente a todos los actores que intervienen en el proceso según la planificación, en el proyecto se deben tener en cuenta también los recursos que se deberán utilizar, más los medios para que cada actividad se lleve a cabo, por último, un proyecto no posee una estructura concreta pues se debe adaptar según la necesidad.
-        .BGR07.p-4
+        .BGR07.p-4.mt-4
           .row.justify-content-around.align-items-center
             .col-lg-1.col-sm-2.col-3
               img(src="@/assets/curso/tema4/img16.svg")
@@ -26,15 +26,15 @@
                     span Descargar
                     i.fas.fa-file-download
     
-    h2 Concepto de proyecto TI
+    h2.mt-5 Concepto de proyecto TI
     
     p.mb-5 Un proyecto TI consiste en el proceso de planear, organizar, definir actores y funciones, además de especificar el objetivo principal de este, todo enmarcado en el concepto TI de la organización.
     .h4 Objetivo del proyecto
 
-    .BGIMG02.p-4.mb-4(data-aos="zoom-in")
+    .BGIMG02.p-4.mb-5(data-aos="zoom-in")
       .h5 Incluye aspectos clave como lo son:
       .row.justify-content-center
-        .col-lg-11.mb-4
+        .col-lg-11.mb-5
           img(src="@/assets/curso/tema5/img03.svg")
         .col-lg-10
           .BGR01.p-4
@@ -42,21 +42,21 @@
 
     h2 Criterio para determinar recursos
     
-    p Los recursos son aquellos elementos que permiten que la ejecución del proyecto se lleve a cabo sin contratiempo, los recursos se deben tener en cuenta a la hora de planear las actividades y costos, su optimización garantiza que la inversión para ejecutar el proyecto no sea alta. 
+    p.mb-5 Los recursos son aquellos elementos que permiten que la ejecución del proyecto se lleve a cabo sin contratiempo, los recursos se deben tener en cuenta a la hora de planear las actividades y costos, su optimización garantiza que la inversión para ejecutar el proyecto no sea alta. 
 
-    .BGR10.p-4.mb-4(data-aos="zoom-out")
+    .BGR10.p-4.mb-5(data-aos="zoom-out")
       SlyderA(tipo="b")
-        .row.justify-content-between.align-items-center
+        .row.justify-content-between.align-items-center.px-4
           .col-lg-4.order-lg-1.order-2
             .h4 Costos del proyecto
             p.mb-0 Para estimar los costos del proyecto se deben tener en cuenta aspectos como la duración, costo de cada actividad, recursos humanos y materiales, asignación de recursos, por tanto, asegurar que se cumplan los tiempos establecidos garantiza que el proyecto cumpla con su rentabilidad y se lleve a cabo según lo presupuestado.
-          .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
+          .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-5
             img(src="@/assets/curso/tema5/img04.png")
-        .row.justify-content-between.align-items-center
+        .row.justify-content-between.align-items-center.px-4
           .col-lg-4.order-lg-1.order-2
             .h4 Recursos
             p.mb-0 Los recursos pueden ser humanos, materiales, financieros, para realizar su seguimiento se deben crear indicadores.
-          .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
+          .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-5
             img(src="@/assets/curso/tema5/img05.png")
         .row.justify-content-between.align-items-center
           .col-lg-4.order-lg-1.order-2
@@ -75,9 +75,9 @@
               li
                 i.fas.fa-puzzle-piece(style="color: #FD9927")
                 |  Recurso humano total del proyecto.
-          .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
+          .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-5
             img(src="@/assets/curso/tema5/img06.png")
-        .row.justify-content-between.align-items-center
+        .row.justify-content-between.align-items-center.px-4
           .col-lg-4.order-lg-1.order-2
             .h4 Materiales
             ul.lista-ul--color
@@ -93,9 +93,9 @@
               li
                 i.fas.fa-puzzle-piece(style="color: #FD9927")
                 | Porcentaje de compra de equipos.
-          .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
+          .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-5
             img(src="@/assets/curso/tema5/img07.png")
-        .row.justify-content-between.align-items-center
+        .row.justify-content-between.align-items-center.px-4
           .col-lg-4.order-lg-1.order-2
             .h4 Financieros
             ul.lista-ul--color
@@ -108,7 +108,7 @@
               li
                 i.fas.fa-puzzle-piece(style="color: #FD9927")
                 | Improvistos.
-          .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
+          .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-5
             img(src="@/assets/curso/tema5/img08.png")
           
     h2 Fases de un proyecto
@@ -116,11 +116,11 @@
     p En el siguiente video se estudiarán las diferentes etapas que componen un proyecto como son la evaluación inicial, planeación, puesta en marcha o ejecución, seguimiento y control, cierre y conclusiones. Además, se revisarán las áreas de conocimiento que lo componen.
     figure.mb-5(data-aos="zoom-in")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/G4nawmrbP3U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     p El PMI o #[em Project Management Institute], se creó en 1969 y es la organización mundial dedicada a la gestión y dirección de proyectos. Esta se identifica por:
 
-    .row.justify-content-between.align-items-center.mb-4
+    .row.justify-content-between.align-items-center.mb-5
       .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
 
         ul.lista-ul--color
@@ -139,12 +139,12 @@
           li
             i.far.fa.lightbulb(style="color: #0B5999")
             | Identificar y promover lineamientos que permitan dirigir proyectos exitosos.
-      .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
+      .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-5(data-aos="fade-left")
         img(src="@/assets/curso/tema5/img09.svg")
 
-    .BGR02B.p-4.mb-4
-      .row.justify-content-around.mb-4
-        .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
+    .BGR02B.p-4.mb-5
+      .row.justify-content-around.mb-5
+        .col-lg-4.col-8.mb-lg-0.mb-5(data-aos="fade-right")
           img(src="@/assets/curso/tema5/img10.svg")
         .col-lg-6(data-aos="fade-left")
           .titulo-segundo.color-acento-contenido
@@ -157,9 +157,9 @@
             span Enlace web
             i.fas.fa-link
 
-    .BGR02B.p-4.mb-4
-      .row.justify-content-around.mb-4
-        .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
+    .BGR02B.p-4.mb-5
+      .row.justify-content-around.mb-5
+        .col-lg-4.col-8.mb-lg-0.mb-5(data-aos="fade-right")
           img(src="@/assets/curso/tema5/img11.svg")
         .col-lg-6(data-aos="fade-left")
           .titulo-segundo.color-acento-contenido
