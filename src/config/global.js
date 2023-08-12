@@ -180,15 +180,15 @@ export default {
       link:
         'https://www.mintic.gov.co/arquitecturati/630/articles-144766_recurso_pdf.pdf',
     },
-    {
-      tema:
-        'Alcaldía Mayor de Bogotá D.C. Plan de contingencia tecnológica IDEP',
-      referencia:
-        'Alcaldía Mayor de Bogotá D.C. (10 de noviembre de 2022) Plan de contingencia tecnológica IDEP. Retrieved November 10, 2022.',
-      tipo: 'Plan de contingencia tecnológica',
-      link:
-        'http://www.idep.edu.co/sites/default/files/PL-GT-12-02%20Plan%20Contingencia%20Tecno%20V12.pdf',
-    },
+    // {
+    //   tema:
+    //     'Alcaldía Mayor de Bogotá D.C. Plan de contingencia tecnológica IDEP',
+    //   referencia:
+    //     'Alcaldía Mayor de Bogotá D.C. (10 de noviembre de 2022) Plan de contingencia tecnológica IDEP. Retrieved November 10, 2022.',
+    //   tipo: 'Plan de contingencia tecnológica',
+    //   link:
+    //     'http://www.idep.edu.co/sites/default/files/PL-GT-12-02%20Plan%20Contingencia%20Tecno%20V12.pdf',
+    // },
     {
       tema: 'Ley 1480 de 2011 Estatuto del consumidor y otras disposiciones',
       referencia:
