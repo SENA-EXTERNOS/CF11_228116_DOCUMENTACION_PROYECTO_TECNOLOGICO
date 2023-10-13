@@ -166,9 +166,10 @@
                   h4.text-white.mb-1 Contrato escrito
                   p.text-white.text-small.mb-0 Para ampliar la información, se sugiere ver el Anexo 3. Contrato escrito, en el cual se identifican los elementos necesarios como la fecha del contrato, duración del mismo y el número de partes involucradas en esos contratos.
                 .col-sm-auto
-                  a.boton.color-acento-contenido(href="https://concepto.de/contrato-2/" target="_blank")
+                  a.boton.color-acento-contenido(:href="obtenerLink('downloads/Anexo3_Concepto_contratos.pdf')" target="_blank" type="application/pdf")
                     span Ver anexo
                     i.fas.fa-eye
+              
 
       .col-lg-10
         .BGR07.p-4
@@ -182,7 +183,7 @@
                   p.text-white.text-small Para profundizar conocimientos sobre el concepto de contrato, se recomienda revisar el siguiente material:
                   p.text-white.text-small.mb-0 Concepto de contrato (2022). Editorial Etecé. 
                 .col-sm-auto
-                  a.boton.color-acento-contenido(href="https://concepto.de/contrato-2/" target="_blank")
+                  a.boton.color-acento-contenido(:href="obtenerLink('downloads/Anexo3_Concepto_contratos.pdf')" target="_blank" type="application/pdf")
                     span Enlace web
                     i.fas.fa-link 
 

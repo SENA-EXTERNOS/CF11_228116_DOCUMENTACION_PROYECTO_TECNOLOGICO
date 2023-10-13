@@ -149,7 +149,7 @@
         .col-lg-6(data-aos="fade-left")
           .titulo-segundo.color-acento-contenido
             h3 Metodología de PMI
-          p En el siguiente video, el gerente de Procem Consultores, da más información sobre la metodología de PMI (Project Management Institute), a través de un ejemplo muy práctico, para ver el material, se invita a dar clic sobre el siguiente enlace: 
+          p En el siguiente video, el gerente de Procem Consultores, da más información sobre la metodología de PMI (#[em Project Management Institute]), a través de un ejemplo muy práctico, para ver el material, se invita a dar clic sobre el siguiente enlace: 
 
           p Gestión de proyectos. Metodología PMI (ejemplo práctico). Consultores, P. [ProcemConsultores]. (2021, July 31).
 

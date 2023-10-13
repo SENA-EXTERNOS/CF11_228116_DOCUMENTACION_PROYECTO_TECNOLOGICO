@@ -175,10 +175,10 @@ export default {
       tema:
         'MGPTI.G.GEN.01 - Documento Maestro del Modelo de Gestión de Proyectos TI',
       referencia:
-        'Ministerio de las TIC (10 de noviembre de 2022). Documento maestro del modelo de gestión de proyectos TI. Página web institucional. Recuperado el 10 de noviembre de 2022.',
+        'Ministerio de las TIC (octubre 10 de 2019). Documento maestro del modelo de gestión de proyectos TI. Página web institucional. Recuperado el 10 de noviembre de 2022.',
       tipo: 'Documento maestro',
       link:
-        'https://www.mintic.gov.co/arquitecturati/630/articles-144766_recurso_pdf.pdf',
+        'https://www.minjusticia.gov.co/Sede-Electronica/Documents/TDJC/Documentos-Interes/MGPTI.G.GEN.01%20Documento%20Maestro%20del%20Modelo%20de%20Gestion%20de%20Proyectos%20de%20TI.pdf',
     },
     // {
     //   tema:

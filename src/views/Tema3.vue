@@ -12,7 +12,7 @@
         .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
           img(src="@/assets/curso/tema3/img01.svg")
         .col-lg-8(data-aos="fade-left")
-          p Una contingencia hace referencia a un suceso que puede ocurrir en cualquier momento, es decir; existe la posibilidad que ocurra o no.  La palabra contingencia proviene del latín, de las voces con (prefijo que denota juntura o convergencia), el verbo tangere (tocar) y #[em entia] (sufijo que indica cualidad de agente). En latín, el verbo #[em contingere] se puede traducir como acontecer, concernir o atañer.
+          p Una contingencia hace referencia a un suceso que puede ocurrir en cualquier momento, es decir; existe la posibilidad que ocurra o no.  La palabra contingencia proviene del latín, de las voces #[em con] (prefijo que denota juntura o convergencia), el verbo #[em tangere] (tocar) y #[em entia] (sufijo que indica cualidad de agente). En latín, el verbo #[em contingere] se puede traducir como acontecer, concernir o atañer.
           p Un ejemplo clásico puede ser un servidor de sistemas de nombres de dominio (#[em domain name system] DNS), todos lo requieren para acceder a las funciones de la red, por tanto, la importancia de contar con un respaldo que permita suplir las necesidades del servidor principal en caso de fallas.
           p.mb-0 No se puede predecir que falle o no el servidor principal, pero por su importancia, se debe contar con una estrategia de respaldo.
 
@@ -57,29 +57,29 @@
       
     .row.justify-content-center.mb-5(data-aos="zoom-in")
       SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
-        .BGR06.hg-2.p-4
+        .tarjeta.h-100.p-4(style="background-color: #f4d6b2")
           .row.justify-content-center.mb-3
             .col-8
               img(src='@/assets/curso/tema3/img06.png' alt='AvatarTop')
-          h2.text-center Duración
+          h3.text-center Duración
           p.text-center.mb-0 La duración del daño determinará en gran medida el tipo de contingencia que se implementará, también el nivel de complejidad y el tiempo de reparación.
-        .BGR06.hg-2.p-4
+        .tarjeta.h-100.p-4(style="background-color: #f4d6b2")
           .row.justify-content-center.mb-3
             .col-8
               img(src='@/assets/curso/tema3/img07.png' alt='AvatarTop')
-          h2.text-center Clasificación
+          h3.text-center Clasificación
           p.text-center.mb-0 No es lo mismo hablar de un daño en la subestación eléctrica, a la avería en el equipo del auxiliar contable; reconocer los factores de riesgo y clasificarlos de acuerdo con su tipo permitirá crear un plan de contingencia.
-        .BGR06.hg-2.p-4
+        .tarjeta.h-100.p-4(style="background-color: #f4d6b2")
           .row.justify-content-center.mb-3
             .col-8
               img(src='@/assets/curso/tema3/img08.png' alt='AvatarTop')
-          h2.text-center Plan de contingencia
+          h3.text-center Plan de contingencia
           p.text-center.mb-0 Este plan de contingencia debe integrar las soluciones técnicas adecuadas, recursos humanos calificados, dispositivos, equipos y presupuesto necesario para solucionar la novedad y volver el sistema a su normal funcionamiento.
-        .BGR06.hg-2.p-4
+        .tarjeta.h-100.p-4(style="background-color: #f4d6b2")
           .row.justify-content-center.mb-3
             .col-8
               img(src='@/assets/curso/tema3/img09.png' alt='AvatarTop')
-          h2.text-center Tipos de contingencia
+          h3.text-center Tipos de contingencia
           ul.lista-ul--color.nar
               li.mb-3 
                 i.fas.fa-check

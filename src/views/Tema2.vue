@@ -80,8 +80,8 @@
         
         h3 Normas vigentes y la reglamentación
         p Para conocer las normas vigentes y la reglamentación en el modelo de gestión de proyectos TI en Colombia, por favor consulte el siguiente material:
-        p Documento maestro del modelo de gestión de proyectos TI, del Ministerio de las TIC (CO) MGPTI.G.GEN.01 (noviembre 10 de 2022).
-        a.boton.color-acento-contenido(href="https://www.mintic.gov.co/arquitecturati/630/articles-144766_recurso_pdf.pdf" target="_blank")
+        p Documento maestro del modelo de gestión de proyectos TI, del Ministerio de las TIC (CO) MGPTI.G.GEN.01 (octubre 10 del 2019).
+        a.boton.color-acento-contenido(href="https://www.minjusticia.gov.co/Sede-Electronica/Documents/TDJC/Documentos-Interes/MGPTI.G.GEN.01%20Documento%20Maestro%20del%20Modelo%20de%20Gestion%20de%20Proyectos%20de%20TI.pdf" target="_blank")
           span Enlace web
           i.fas.fa-link
 
